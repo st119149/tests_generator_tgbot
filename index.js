@@ -7,7 +7,7 @@ import two from './2.js'
 
 
 
-process.env.OPENAI_API_KEY = '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'
+process.env.OPENAI_API_KEY = ''
 
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY
@@ -16,7 +16,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 
-const token = '6135394160:AAEASzii1efSDyezZn69_K5xsep6-ezMago'
+const token = ''
 
 const bot = new TelegramBot(token, { polling: true })
 
